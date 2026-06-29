@@ -1,0 +1,71 @@
+.User{
+   flex: auto;
+    text-align: left;
+}
+/* navigation */
+.navigation{
+  display: flex;
+  justify-content: end;
+}
+
+.navigation>nav>ul{
+    list-style: none;
+}
+.navigation>nav>ul>li{
+    display: inline-block;
+}
+/* main */
+.base{
+    text-align: center;
+}
+.base>p{
+color: rgb(118, 118, 118);
+}
+.table{
+    display: flex;
+    justify-content: space-around;
+    border-style: dashed;
+}
+.projects{
+   display: inline-block;
+  padding: 10px;
+   border-style: groove;
+}
+/* not understand */
+.projects>p{
+    border-bottom: 3cm;
+}
+.work{
+display: inline-block;
+border-style: groove;
+}
+.cursiv{
+    font-style: italic;
+}
+.open_source{
+    display: inline-block;
+    border-style: groove;
+}
+.education{
+    display: inline-block;
+    border-style: groove;
+}
+.reviews{
+    display: flex;
+    justify-content: space-around;
+
+}
+.reviews>p{
+    float: inline-start;
+    
+    border-style: groove;
+}
+.reviews>p>span{
+    font-style: italic;
+    color: rgb(117, 117, 118);
+   
+}
+.footer{
+    text-align: center;
+    text-overflow: clip;
+}
