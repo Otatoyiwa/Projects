@@ -1,0 +1,77 @@
+/* need it */
+.timeline {
+    display: flexbox;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 700px;
+    width: 600px;
+    transform: translate(-50%, -50%);
+    border: 3px solid black;
+    border-radius: 10%;
+    justify-content: space-around;
+
+
+}
+
+.timeline>h1 {
+    text-align: center;
+    gap: 10px;
+}
+
+.timeline>p {
+    color: rgb(89, 91, 93);
+    text-align: center;
+
+}
+
+.date {
+    display: inline-block;
+    border-right: 3px solid;
+    gap: 40px;
+    padding-right: 20px;
+    margin: 20px;
+
+
+}
+
+.date>p {
+    size: 14px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px;
+}
+
+
+.content {
+    display: inline-block;
+    gap: 40px;
+    padding-left: 1px;
+    margin: 20px;
+}
+
+.content>p {
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 3px 3px 3px;
+}
+
+.timeline>.date>p::after {
+    content: '';
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 90%;
+    height: 15px;
+    width: 15px;
+    left: 27%;
+    background-color: rgb(248, 7, 7);
+    z-index: 3;
+}
+
+.butt {
+    display: block;
+    margin-left: 200px;
+    margin-top: 100px;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    font: bolder;
+}
